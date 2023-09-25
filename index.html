@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Web</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inclusive+Sans">
+    <style>
+        body {
+            font-family: 'Inclusive Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-family: 'Share Tech Mono', monospace;
+            justify-content: center;
+        }
+
+        p {
+            font-size: 20px;
+
+        }
+
+        .container {
+            border-radius: 20px 20px 20px 20px;
+            background-color: rgb(229, 209, 184);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            margin: 1px 1px 1px 1px;
+            padding: 25px 20px 25px 20px;
+            text-align: center;
+            width: 25%;
+        }
+
+        .contact-link {
+            text-decoration: none;
+            color: white;
+        }
+
+        .text {
+            flex: 1;
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        .logodownload {
+            height: 25px;
+            width: 25px;
+            margin-left: 10px;
+            background-image: url(./image/download.png);
+            background-size: cover;
+        }
+
+        .text-with-logo {
+            display: flex;
+            align-items: center;
+            width: 200px;
+            padding: 10px;
+            background-color: #d3903e;
+            border-radius: 25px;
+        }
+
+        .sosmed-logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 150px;
+            padding: 10px;
+            background-color: rgb(159, 159, 159);
+            border-radius: 25px;
+        }
+
+        .card {
+            background-color: #d3903e;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 20px 80px;
+            overflow:hidden;
+        }
+
+        .card-image {
+            height: 250px;
+            background-image: url('./image/foto.jpg');
+            background-position: top;
+            border-radius: 8px 8px 0 0;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Selamat Keset</h1>
+        <p>Nama gua Rizqullah Anjar Pradana, biasa dipanggil rizqul, sekarang lagi jadi mahastudent 
+            di kampus ufo (baca: gunadarma) ngambil jurusan S1 Sistem Informasi.
+        </p>
+        <p>Hobi tukang ngoprek hardware software (terima bongkar doang tapi hehe) sama main game, 
+            seringnya main game musik(SDVX, Arcaea, DJMAX), main game fps jarangan mentok-mentok main COD:MW2(2022)
+        </p>
+        <p>Kalo di rumah paling dengerin musik, ngurus skrispi, 
+            kadang ngebuka joki game, sama ya main game musik di rumah
+        </p>
+        <p>Bingung mau isi apalagi, 
+            kurang lebih seperti ini aja kali ya biodata gue xixi
+        </p>
+        <p></p>
+        <table style="
+            width: 25%;
+            text-align: center;
+            background-color: #d3903e;
+            border-radius: 25px 25px 25px 25px;">
+            <tr>
+                <th>
+                    <a href="mailto:rizqullahanjr@gmail.com" class="contact-link">Contact Me</a>
+                </th>
+            </tr>
+        </table>
+        <p></p>
+        <div class="text-with-logo">
+            <div class="text"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="contact-link">Download CV</a></div>
+            <div class="logodownload"></div>
+        </div>
+        <p></p>
+        <table style="
+                    margin-bottom: 10px;
+                    padding-left: 100px;
+                    padding-right: 100px;
+                    width: 100%;
+                    align-content: center;">
+                    <tr>
+                        <th>
+                            <a href="https://www.linkedin.com/in/rizqullahanjr/">
+                                <img
+                                    src="./image/linkedin.png"
+                                    style="width: 25px;"
+                                    alt="linkedin"
+                                    ;/>
+                                </a>
+                        </th>
+                        <th>
+                            <a href="https://www.instagram.com/rizqullahanjr/">
+                                <img
+                                    src="./image/instagram.png"
+                                    style="width: 25px;"
+                                    alt="instagram"
+                                    ;/>
+                                </a>
+                        </th>
+                        <th>
+                            <a href="https://facebook.com/rizqullah.pradana">
+                                <img
+                                    src="./image/facebook.png"
+                                    style="width: 25px;"
+                                    alt="facebook"
+                                    ;/>
+                                </a>
+                        </th>
+                        <th>
+                            <a href="https://x.com/rizqullahanjr">
+                                <img
+                                    src="./image/twitter.png"
+                                    style="width: 25px;"
+                                    alt="twitter"
+                                    ;/>
+                                </a>
+                        </th>
+                    </tr>
+        </table>
+        <p></p>
+        <div class="card" style="flex: 1;">
+            <div class="card-image"></div>
+            <h1>Tamaneko</h1>
+            <h2>"Jadi gini, ya gitu"</h2>
+        </div>
+    </div>
+</body>
+</html>
