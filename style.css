@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css2?family=Inclusive+Sans);
+
+*{
+    text-decoration: none;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    
+}
+
+nav ul li{
+    margin-right: 25px;
+    font-size: 20px;
+    background-color: aqua;
+}
+
+nav ul li .active{
+    color: orange;
+}
+
+.nav-left{
+    flex: 50%;
+    background-color: red;
+}
+
+.nav-right{
+    flex: 50%;
+    text-align: end;
+    margin-right: 25px;
+    background-color: blue;
+}
+
+.nav-right a{
+    background-color: orangered;
+    padding: 8px 25px;
+    color: white;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+
+section{
+    display: flex;
+    width: 80%;
+}
+
+.left{
+    flex: 30%;
+    background-color: red;
+}
+
+.right{
+    flex: 70%;
+    margin-left: 50px;
+    background-color: blue;
+}
+
+}
